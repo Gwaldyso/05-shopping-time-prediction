@@ -1,0 +1,9 @@
+models/
+data/*.npy
+data/*.csv
+*.joblib
+*.pkl
+__pycache__/
+*.png
+*.jpg
+*.jpeg
