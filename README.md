@@ -1,8 +1,8 @@
-# 🛒 Prédicteur de Temps de Shopping
+#  Prédicteur de Temps de Shopping
 
 Un projet complet de Machine Learning pour prédire le temps qu'une personne passera dans un magasin en fonction de sa liste de courses et de ses habitudes.
 
-## 🎯 Objectif du Projet
+##  Objectif du Projet
 
 Ce projet utilise des techniques de Machine Learning pour prédire le temps de shopping en analysant :
 - Le profil du client (âge, habitudes)
@@ -11,7 +11,7 @@ Ce projet utilise des techniques de Machine Learning pour prédire le temps de s
 - Les facteurs temporels (jour, heure, weekend)
 - Les conditions du magasin (affluence, heure de pointe)
 
-## 🏗️ Architecture du Projet
+## Architecture du Projet
 
 
 shopping-time-predictor/
@@ -25,7 +25,7 @@ shopping-time-predictor/
 ├── models/                        # Modèles sauvegardés
 └── README.md
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Prérequis
 
@@ -50,7 +50,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib scipy
 5. **Évaluation du modèle** : python scripts/05_model_evaluation.py
 
 
-## 📊 Features du Modèle
+##  Features du Modèle
 
 ### Variables d'entrée :
 - **Profil client** : âge, type de comportement (rapide, normal, flâneur, méthodique)
@@ -65,7 +65,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib scipy
 - Score de complexité du shopping
 - Interaction weekend × heure de pointe
 
-## 🤖 Modèles Utilisés
+##  Modèles Utilisés
 
 Le projet compare trois algorithmes :
 1. **Random Forest** - Ensemble de arbres de décision
@@ -74,14 +74,14 @@ Le projet compare trois algorithmes :
 
 Le meilleur modèle est automatiquement sélectionné basé sur le RMSE.
 
-## 📈 Métriques d'Évaluation
+##  Métriques d'Évaluation
 
 - **RMSE** (Root Mean Square Error) - Erreur quadratique moyenne
 - **MAE** (Mean Absolute Error) - Erreur absolue moyenne  
 - **R²** (Coefficient de détermination) - Variance expliquée
 - **MAPE** (Mean Absolute Percentage Error) - Erreur en pourcentage
 
-## 🎮 Interface Interactive
+##  Interface Interactive
 
 L'interface permet de :
 - Créer un profil de shopping personnalisé
@@ -89,10 +89,10 @@ L'interface permet de :
 - Recevoir des conseils d'optimisation
 - Analyser les facteurs influençant le temps
 
-## 📊 Exemple de Résultats
+##  Exemple de Résultats
 
 
-🎯 Métriques du modèle :
+ Métriques du modèle :
    RMSE: 8.5 minutes
    MAE: 6.2 minutes
    R²: 0.847
@@ -103,7 +103,7 @@ Précision des prédictions :
    ±15 minutes: 89.1%
 
 
-## 🔍 Features les Plus Importantes
+##  Features les Plus Importantes
 
 1. Nombre total d'articles
 2. Score de complexité du shopping
@@ -111,7 +111,7 @@ Précision des prédictions :
 4. Profil client
 5. Nombre de catégories
 
-## 🛠️ Personnalisation
+##  Personnalisation
 
 Le modèle peut être facilement adapté pour :
 - Ajouter de nouvelles catégories de produits
@@ -119,14 +119,14 @@ Le modèle peut être facilement adapté pour :
 - Intégrer des données réelles de magasins
 - Ajouter des variables météorologiques ou saisonnières
 
-## 📝 Cas d'Usage
+##  Cas d'Usage
 
 - **Planification personnelle** : Estimer le temps nécessaire pour ses courses
 - **Gestion de magasins** : Prévoir l'affluence et optimiser les ressources
 - **Applications mobiles** : Intégrer dans des apps de shopping
 - **Recherche** : Analyser les comportements de consommation
 
-## 🔮 Améliorations Futures
+##  Améliorations Futures
 
 - Intégration de données réelles de magasins
 - Modèles de deep learning (réseaux de neurones)
@@ -134,6 +134,6 @@ Le modèle peut être facilement adapté pour :
 - Analyse des trajets dans le magasin
 - Prédiction en temps réel avec IoT
 
-## 📄 Licence
+##  Licence
 
 Ce projet est à des fins éducatives et de démonstration.
